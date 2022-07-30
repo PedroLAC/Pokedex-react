@@ -1,0 +1,21 @@
+.pokemon-image{
+  display: block;
+  position: absolute;
+  bottom: 55%;
+  left: 50%;
+  transform: translate(-63%, 20%);
+  height: 18%;
+}
+
+.hidden-image{
+  display: none;
+}
+
+.pokemon-data{
+  position: absolute;
+  font-weight: 600;
+  color: #AAA;
+  top: 54.5%;
+  right: 27%;
+  font-size: clamp(8px, 5vw, 25px);
+}
