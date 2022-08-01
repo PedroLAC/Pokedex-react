@@ -10,7 +10,7 @@
 .container{
   text-align: center;
   background: linear-gradient(to bottom, #6AB7F5, #FFF);
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .main{
@@ -21,8 +21,8 @@
 }
 
 .pokedex{
-  height: 90vh;
-  min-width: 425px;
+  width: 100%;
+  max-width: 425px;
 }
 
 .pokemon-name{
